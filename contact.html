@@ -8,35 +8,27 @@
 </head>
 <body>
     <header>
-    <h1>Bienvenidos al Blog de Karina Tigse</h1>
-    <nav>
-        <table style="border-collapse: collapse; width: 70%; border: 3px solid black; text-align: center;">
-            <tr>
-                <td style="border: 3px solid black; padding: 10px;"><a href="index.html">Inicio</a></td>
-                <td style="border: 3px solid black; padding: 10px;"><a href="about.html">Sobre Mí</a></td>
-                <td style="border: 3px solid black; padding: 10px;"><a href="blog.html">Blog</a></td>
-                <td style="border: 3px solid black; padding: 10px;"><a href="contact.html">Contacto</a></td>
-            </tr>
-        </table>
-    </nav>
-</header>
+        <h1>Contacto</h1>
+        <nav>
+            <table border="1">
+                <tr>
+                    <td><a href="index.html">Inicio</a></td>
+                    <td><a href="about.html">Sobre Mí</a></td>
+                    <td><a href="blog.html">Blog</a></td>
+                    <td><a href="contact.html">Contacto</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
 
     <main>
-        <section>
-            <h2>Formulario de Contacto</h2>
-            <form action="#" method="post">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <label>Nombre:</label><input type="text" name="nombre"><br>
+            <label>Email:</label><input type="email" name="email"><br>
+            <label>Mensaje:</label><textarea name="mensaje"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
     </main>
 
     <footer>
